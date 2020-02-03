@@ -41,5 +41,6 @@ int main(int argc, char**argv) {
 		}
 		printf("%s for %s is: %s\n", iptype, argv[1], IP);
 	}
+	freeaddrinfo(res);
 	return 0;
 }
